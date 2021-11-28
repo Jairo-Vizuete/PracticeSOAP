@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.11.26 a las 10:02:56 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://espe.edu.ec/arqsoftware/SpringSOAPCF/ws">
+    <schemaBindings map="false">
+      <package name="ec.edu.espe.arqsoftware.springsoapcf.ws"/>
+    </schemaBindings>
+    <bindings scd="tns:obtenerProductoPorCodigoRequest">
+      <class ref="ec.edu.espe.arqsoftware.springsoapcf.ws.ObtenerProductoPorCodigoRequest"/>
+    </bindings>
+    <bindings scd="tns:obtenerProductoPorCodigoResponse">
+      <class ref="ec.edu.espe.arqsoftware.springsoapcf.ws.ObtenerProductoPorCodigoResponse"/>
+    </bindings>
+    <bindings scd="~tns:producto">
+      <class ref="ec.edu.espe.arqsoftware.springsoapcf.ws.Producto"/>
+    </bindings>
+    <bindings scd="tns:crearProductoRequest">
+      <class ref="ec.edu.espe.arqsoftware.springsoapcf.ws.CrearProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:crearProductoResponse">
+      <class ref="ec.edu.espe.arqsoftware.springsoapcf.ws.CrearProductoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

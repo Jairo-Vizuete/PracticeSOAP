@@ -30,6 +30,7 @@ public class ProductoEndpoint {
         if(productoOpt.isPresent()){
             ObtenerProductoPorCodigoResponse response = new ObtenerProductoPorCodigoResponse();
             response.setProducto(productoOpt.get());
+            log.info("I want to know what is this: {}",response);
             return response;
         } else {
             throw new RuntimeException();
